@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Lexend:wght@100..900&display=swap');
 
 @tailwind base;
@@ -67,4 +68,17 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(35, 34, 34);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(35, 34, 34);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
 }
